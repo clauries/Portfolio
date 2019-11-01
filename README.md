@@ -26,17 +26,17 @@ As this is my first homework assignment for my coding bootcamp, there are limita
 
 
 ## Credits
-#### General
-https://www.w3schools.com/html/default.asp
-https://www.w3schools.com/css/default.asp
-
 #### Flexbox
- https://mastery.games/p/flexbox-zombies
- https://stackoverflow.com/questions/9171699/add-a-pipe-separator-after-items-in-an-unordered-list-unless-that-item-is-the-la
+* https://mastery.games/p/flexbox-zombies
+* https://stackoverflow.com/questions/9171699/add-a-pipe-separator-after-items-in-an-unordered-list-unless-that-item-is-the-la
 
 #### About Me page:
-https://www.format.com/magazine/resources/photography/online-portfolio-about-page-step-by-step-guide
-https://www.vanschneider.com/the-most-important-page-on-your-portfolio
+* https://www.format.com/magazine/resources/photography/online-portfolio-about-page-step-by-step-guide
+* https://www.vanschneider.com/the-most-important-page-on-your-portfolio
+
+#### General
+* https://www.w3schools.com/html/default.asp
+* https://www.w3schools.com/css/default.asp
 
 
 ## License

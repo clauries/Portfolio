@@ -1,7 +1,63 @@
-#tab {
-    margin-left: 20%;
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
 
-nav {
-    margin-right:20%;
+
+.portfolio-imgs {
+    position: relative;
+    margin: 0 20px 20px 0;   
 }
+
+.img-header {
+    background: #4aaaa5;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+    line-height: 2.5;
+}
+
+#img-1 {
+    background: url(../images/hangman.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+}
+
+#img-2 {
+    background: url(../images/rpg.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px; 
+}
+
+#img-3 {
+    background: url(../images/trivia.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+}
+
+#img-4 {
+    background: url(../images/widget.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+}
+
+#img-5 {
+    background: url(../images/rock.jpg);
+    background-size: 100% 100%;
+    height: 200px;
+    width: 250px;
+}
+
+
+
+

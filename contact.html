@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>LS Portfolio</title>
+    <title>Laurie Schroeder Portfolio</title>
 
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css"/>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
@@ -13,42 +13,47 @@
 
 <body>
 
-    <header>
-        <div id="tab">Laurie Schroeder</div>
-
-        <nav>
-            <ul>
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+    <div class="heading">
+        <div id="heading-name">Laurie Schroeder</div>
+        <nav class="nav-bar">
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html">About</a></li>
+                <li><a class="nav-link" href="portfolio.html">Portfolio</a></li>
+                <li><a class="nav-link" href="contact.html">Contact</a></li>
             </ul>
         </nav>
+    </div>
 
-    </header>
+    <div class="container">
+        <h1 class="header-content">Contact</h1>
+        <br class="break-large">
+        <form class="contact">
+            <div class="contact-info">Name:
+                <br class="break-small">
+                <input class="contact-fill" type="text" name="name">
+            </div>
+            <br class="break-normal">
 
-    <section id="contact">
-        <h1>Contact</h1>
-        <br>
-        <form>
-            Name:<br>
-            <input type="text" name="name">
-            
-            <br>
+            <div class="contact-info">E-mail:
+                <br class="break-small">
+                <input class="contact-fill" type="text" name="email">
+            </div>
+            <br class="break-normal">
 
-            E-mail:<br>
-            <input type="text" name="email">
-            
-            <br>
+            <div class="contact-info">Message:
+                <br class="break-small">
+                <textarea class="contact-message" name="message" rows="10" cols="30">
+                </textarea>
+            </div>
+            <br class="break-large">
 
-            Message:<br>
-            <textarea name="message" rows="10" cols="30">
-            </textarea>
-            
-            <br><br>
-
-            <input type="submit" value="Submit">
+            <input class="contact-submit" type="submit" value="Submit">
         
         </form>
-    </section>   
+    </div>   
+
+    <footer class="footer-sticky">
+        Copyright
+    </footer>
 </body>
 </html>

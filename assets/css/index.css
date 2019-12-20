@@ -7,9 +7,13 @@
     flex-wrap: wrap;
 }
 
-.profile-img {
+.profile-img-div {
     margin: 0 20px 0 0;
-    
+   
+}
+
+#profile-img {
+    border-radius: 50%;
 }
 
 
